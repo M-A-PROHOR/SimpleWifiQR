@@ -1,0 +1,54 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: linear-gradient(45deg, #0ea5e9, #00ffa2);
+}
+.heading {
+  margin-bottom: 10px;
+}
+
+form {
+  width: 600px;
+  height: 350px;
+  border: dotted 2px #9900ff;
+  padding: 2rem;
+  border-radius: 20px;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.internal {
+  display: flex;
+  gap: 2rem;
+}
+
+.inputs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  color: #374151;
+  font-family: monospace;
+  height: 38px;
+  padding: 0 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+}
+@media print {
+  button {
+    display: none;
+  }
+}
